@@ -11,11 +11,11 @@ function Home() {
     return (
         <div>
             <h1>:) Você me ama? ❤️</h1>
-            <button onClick={trocar} style={{width: 200, height: 30}}>
+            <button onClick={trocar} style={{width: '200px', height: '30px', fontSize: '18px'}}>
                 {troca ? 'Sim' : 'Não'}
             </button>
-            <div style={{paddingBottom: 10}}></div>
-            <button onClick={trocar} style={{width: 200, height: 30}}>
+            <div style={{paddingBottom: '10px'}}></div>
+            <button onClick={trocar} style={{width: '200px', height: '30', fontSize: '18px'}}>
                 {troca ? 'Não' : 'Sim'}
             </button>
             <h2>{troca ? '' : 'NÃO AMO!!!! 😑'}</h2>
